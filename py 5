@@ -1,0 +1,17 @@
+print("Bharathi International[p] ltd.")
+print("No.15,Nagapura dist,Bangalore")
+print("-----------------------------")
+print("Employee Pay roll system")
+print("------------------------")
+id=int(input("enter the employee id:"))
+name=input("enter the employee name:")
+salary=int(input("enter the salary:"))
+print("income")
+bonus=salary*20/100
+print("bonus(20 percentage):",bonus)
+overtime=salary*10/100
+print("overtime (10 percentage):",overtime)
+travel=salary*5/100
+print("travel allowance (5 percentage):",travel)
+gross=salary+bonus+overtime+travel
+print("gross in rupees:",gross)
